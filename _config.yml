@@ -23,12 +23,15 @@ name: Dimitris Ellinoudis
 position: PhD student
 email: ellinoudis.dimitrios@ucy.ac.cy
 description: >-
- I’m currently pursuing a PhD in Robotics at the [Vision for Robotics Lab (V4RL)](https://v4rl.com/), University of Cyprus. My research focuses on useful scene representations for robotic vision perception. As a passionate and self-driven innovation enthusiast, I continuously push to learn new skills and master what I already know.
+ I’m currently pursuing a PhD in Robotics at the [Vision for Robotics Lab (V4RL)](https://v4rl.com/), under the supervision of Prof. Dr. Margarita Chli, in University of Cyprus. 
+ My research focuses on useful scene representations for robotic vision perception. 
+ As a passionate and self-driven innovation enthusiast, I continuously push to learn new skills and master what I already know.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://janudis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+# twitter_username: n_karaev
 github_username: Janudis
 google_scholar: gldfCG8AAAAJ
+# google_analytics: G-QN7B6S518N
 
 # Build settings
 theme: minima
