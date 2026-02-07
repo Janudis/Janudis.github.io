@@ -1,0 +1,73 @@
+- id: vggt
+  title: "VGGT: Visual Geometry Grounded Transformer"
+  venue: CVPR 2025 (Best Paper Award)
+  description: "VGGT is a feed-forward neural net that directly predicts all key 3D attributes of a scene: cameras, point maps, depth maps, and 3D point tracks, from one, a few, or hundreds of its views, within seconds."
+  project_page: "https://vgg-t.github.io/"
+  arxiv: 2503.11651
+  image: vggt.mp4
+  authors:
+    - jwang
+    - mchen
+    - nikitakaraev
+    - avedaldi
+    - crupprecht
+    - dnovotny
+
+- id: cotrackerthree
+  title: "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos"
+  venue: ICCV 2025 (Highlight)
+  description: "In CoTracker3, we propose a simple and effective method for scaling synthetic-trained point trackers on real data."
+  project_page: "https://cotracker3.github.io/"
+  arxiv: 2410.11831
+  image: longboard_ours_offline_finetuned_100.mp4
+  authors:
+    - nikitakaraev
+    - ymakarov
+    - jwang
+    - nneverova
+    - avedaldi
+    - crupprecht
+    
+- id: vggsfm
+  title: "Visual Geometry Grounded Deep Structure From Motion"
+  venue: CVPR 2024 (Highlight)
+  description: "We propose a new fully differentiable Structure-from-Motion pipeline."
+  project_page: "https://vggsfm.github.io/"
+  arxiv: 2312.04563
+  image: vggsfm_teaser.mp4
+  authors:
+    - jwang
+    - nikitakaraev
+    - crupprecht
+    - dnovotny
+    
+- id: cotracker
+  title: "CoTracker: It is Better to Track Together"
+  venue: ECCV 2024
+  description: "CoTracker bridges the gap between long-term point tracking and Optical Flow by jointly tracking multiple points (pixels) throughout an entire video."
+  project_page: "https://co-tracker.github.io/"
+  arxiv: 2307.07635
+  image: bmx-bumps.mp4
+  authors:
+    - nikitakaraev
+    - irocco
+    - bgraham
+    - nneverova
+    - avedaldi
+    - crupprecht
+
+- id: dynamic-stereo
+  title: "DynamicStereo: Consistent Dynamic Depth from Stereo Videos"
+  venue: CVPR 2023
+  description: "We introduce Dynamic Replica, a synthetic benchmark dataset for dynamic depth-from-stereo models, and propose DynamicStereo, a temporally consistent disparity estimation model that we train on this dataset."
+  project_page: "https://dynamic-stereo.github.io/"
+  arxiv: 2305.02296
+  image: nikita_reading_reconstruction.mp4
+  # image_mouseover: nikita_reading_reconstruction.mp4
+  authors:
+    - nikitakaraev
+    - irocco
+    - bgraham
+    - nneverova
+    - avedaldi
+    - crupprecht
