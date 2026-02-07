@@ -103,14 +103,14 @@ layout: null
       {% for publication in site.data.publications %}
       <div class="publication-block columns">
 
-        <div class="column is-2">
+        <!-- <div class="column is-2">
           <div class="publication-image">
             <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
               <source src="./images/{{ publication.image }}" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
+        </div> -->
 
         <div class="column">
           <div class="content">
@@ -146,11 +146,6 @@ layout: null
                 href="https://ieeexplore.ieee.org/document/{{ publication.ieee }}/">
                 <span class="icon"><i class="fas fa-file-alt"></i></span>
                 <span>IEEE Xplore</span>
-              </a>
-              <a class="external-link button is-small is-ghost"
-                href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber={{ publication.ieee }}">
-                <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                <span>PDF</span>
               </a>
               {% if publication.github %}
               <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">

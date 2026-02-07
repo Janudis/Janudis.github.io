@@ -2,7 +2,7 @@
   title: "Robust multisensor localization using sparse landmarks for autonomous driving"
   venue: 32nd Mediterranean Conference on Control and Automation (MED)
   project_page: "https://github.com/Janudis/Extended-Kalman-Filter-GPS_IMU"
-  arxiv: 10566202
+  publication.ieee: 10566202
   authors:
     - Dimitris Ellinoudis
     - Lefteris Doitsidis
@@ -12,7 +12,7 @@
   title: "A study on high definition maps' standards and specifications for autonomous vehicles"
   venue: IEEE International Conference on Omni-layer Intelligent Systems (COINS)
   project_page: "https://github.com/Janudis/opendrive-to-dwmap"
-  arxiv: 10189236
+  publication.ieee: 10189236
   authors:
     - Maria Siopi
     - Dimitris Ellinoudis
