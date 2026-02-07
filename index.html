@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dimitris Ellinoudis</title>
+  <style>
+    :root { --text:#111; --muted:#555; --line:#e6e6e6; --link:#0b63ce; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--text); }
+    a { color:var(--link); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { max-width: 980px; margin: 48px auto; padding: 0 18px; }
+    .top { display:grid; grid-template-columns: 220px 1fr; gap: 28px; align-items:start; }
+    .photo {
+      width: 220px; border:1px solid var(--line); border-radius: 10px;
+      overflow:hidden; background:#fafafa;
+    }
+    .photo img { width:100%; display:block; }
+    h1 { font-size: 34px; margin: 0 0 6px; }
+    .subtitle { color:var(--muted); margin: 0 0 14px; }
+    .links a { margin-right: 12px; }
+    hr { border:0; border-top:1px solid var(--line); margin: 26px 0; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    ul { margin: 8px 0 0 18px; padding: 0; }
+    li { margin: 6px 0; }
+    .section { margin: 0 0 18px; }
+    .small { color:var(--muted); font-size: 14px; }
+    @media (max-width: 760px){
+      .top { grid-template-columns: 1fr; }
+      .photo { width: 180px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="photo">
+        <!-- Put a file called "profile.jpg" in the repo root (same folder as this index.html) -->
+        <img src="profile.jpg" alt="Profile photo" />
+      </div>
+
+      <div>
+        <h1>Dimitris Ellinoudis</h1>
+        <p class="subtitle">
+          PhD student — Robotics & Computer Vision • Perception • SLAM • Neural Rendering
+        </p>
+
+        <p class="links">
+          <a href="mailto:YOUR_EMAIL">Email</a>
+          <a href="https://github.com/Janudis">GitHub</a>
+          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a>
+          <a href="YOUR_GOOGLE_SCHOLAR_URL">Google Scholar</a>
+          <a href="YOUR_CV_PDF_URL">CV</a>
+        </p>
+
+        <p>
+          Short bio here (3–5 lines). Mention your focus (robot perception, SLAM, mapping, etc.),
+          your lab/affiliation, and what you are working on right now.
+        </p>
+
+        <p class="small">
+          Location: Cyprus • Interests: Visual SLAM, dynamic scenes, 3D representations (Gaussians/voxels), differentiable rendering
+        </p>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="section">
+      <h2>Research</h2>
+      <ul>
+        <li>Online photorealistic mapping with sparse voxels / SVRaster-style representations.</li>
+        <li>Dynamic SLAM: detecting and filtering dynamic regions using learned priors.</li>
+        <li>Dense reconstruction pipelines for robotics perception.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><b>SVRaster × Photo-SLAM integration</b> — voxel-based photorealistic mapping in a SLAM pipeline. <a href="#">Code</a></li>
+        <li><b>High-definition mapping for autonomous driving</b> — localization + perception components. <a href="#">Details</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Publications</h2>
+      <ul>
+        <li>Author, Author. “Title.” Venue, Year. <a href="#">PDF</a></li>
+      </ul>
+      <p class="small">(*Add/adjust as needed; it’s fine to leave this empty initially.)</p>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a><br />
+        GitHub: <a href="https://github.com/Janudis">github.com/Janudis</a>
+      </p>
+    </div>
+
+    <hr />
+    <p class="small">Last updated: Feb 2026</p>
+  </div>
+</body>
+</html>
+index.html
