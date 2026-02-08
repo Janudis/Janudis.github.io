@@ -11,6 +11,21 @@
     - label: "RoboCup@Work"
       url: "https://atwork.robocup.org/"
       icon: "fas fa-globe"
-    - label: "Simulation / Code"
+    - label: "Project github"
       url: "https://github.com/AltziTS007/talos_sim/tree/noetic-devel"
       icon: "fab fa-github"
+
+- title: "NASA Space Apps Hackathon — AgroBot"
+  subtitle: "Earth Observation • Geospatial Data • Decision Support"
+  description: >
+    Prototype for the Space Apps challenge “Leveraging Earth Observation Data for Informed Agricultural
+    Decision-Making”. Built a small decision-support workflow that uses Earth observation and open
+    geospatial data to help monitor fields and guide agricultural actions in a clear, user-facing way.
+  image: "agrobot.gif"
+  links:
+    - label: "Code"
+      url: "https://github.com/Janudis/AgroBot"
+      icon: "fab fa-github"
+    - label: "Space Apps"
+      url: "https://www.spaceappschallenge.org/"
+      icon: "fas fa-globe"
