@@ -1,0 +1,16 @@
+- title: "RoboCup@Work — Democritus Industrial Robotics (DIR)"
+  subtitle: "ROS • SLAM & Localization • Real-time Perception"
+  description: >
+    Built and deployed a full navigation + perception stack on a real three-omni-wheeled robot for
+    industrial-style task scenarios. Integrated ROS navigation with gmapping (2D SLAM) and robust
+    localization using AMCL and an EKF fusion of laser scans and wheel odometry. Deployed YOLOv4
+    for real-time detection of industrial tools and objects. Achieved 4th place in the RoboCup@Work
+    competition.
+  video: "DIR.mp4"
+  links:
+    - label: "RoboCup@Work"
+      url: "https://atwork.robocup.org/"
+      icon: "fas fa-globe"
+    - label: "Simulation / Code"
+      url: "https://github.com/AltziTS007/talos_sim/tree/noetic-devel"
+      icon: "fab fa-github"

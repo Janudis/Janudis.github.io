@@ -164,6 +164,63 @@ layout: null
         </div>
       </div>
       {% endfor %}
+
+      <h2 class="title is-3">Projects</h2>
+
+      {% for project in site.data.projects %}
+      <div class="publication-block columns">
+
+        <!-- Media (left) -->
+        <div class="column is-3">
+          <div class="publication-image">
+            {% if project.video %}
+            <video autoplay preload playsinline loop muted width="100%">
+              <source src="{{ '/images/' | append: project.video | relative_url }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% elsif project.image %}
+            <img alt="{{ project.title }}" src="{{ '/images/' | append: project.image | relative_url }}" />
+            {% endif %}
+          </div>
+        </div>
+
+        <!-- Text (right) -->
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              {% if project.url %}
+              <a href="{{ project.url }}">{{ project.title }}</a>
+              {% else %}
+              {{ project.title }}
+              {% endif %}
+            </h3>
+
+            {% if project.subtitle %}
+            <div class="publication-venue">
+              <span>{{ project.subtitle }}</span>
+            </div>
+            {% endif %}
+
+            <p class="publication-description">{{ project.description }}</p>
+
+            {% if project.links %}
+            <div class="publication-links buttons field has-addons">
+              {% for link in project.links %}
+              <a class="external-link button is-small is-ghost" href="{{ link.url }}">
+                {% if link.icon %}
+                <span class="icon"><i class="{{ link.icon }}"></i></span>
+                {% endif %}
+                <span>{{ link.label }}</span>
+              </a>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+
+      </div>
+      {% endfor %}
+
     </div>
   </section>
 
