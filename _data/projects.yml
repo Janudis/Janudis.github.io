@@ -16,16 +16,22 @@
       icon: "fab fa-github"
 
 - title: "NASA Space Apps Hackathon — AgroBot"
-  subtitle: "Earth Observation • Geospatial Data • Decision Support"
+  subtitle: "Earth Observation • Google Earth Engine • Decision Support"
   description: >
-    Prototype for the Space Apps challenge “Leveraging Earth Observation Data for Informed Agricultural
-    Decision-Making”. Built a small decision-support workflow that uses Earth observation and open
-    geospatial data to help monitor fields and guide agricultural actions in a clear, user-facing way.
-  image: "agrobot.gif"
+    Chatbot assistant that translates a simple natural-language question into actionable agricultural
+    insights using Earth observation and open geospatial data. Integrates Google Earth Engine datasets
+    (e.g., NDVI, land surface temperature, soil moisture, air quality proxies) and provides an accessible
+    interface for non-technical users to monitor conditions and support field decisions.
+  video: "agrobot.mp4"
   links:
+    - label: "Demo"
+      url: "https://agrobot.streamlit.app/"
+      icon: "fas fa-globe"
     - label: "Code"
       url: "https://github.com/Janudis/AgroBot"
       icon: "fab fa-github"
     - label: "Space Apps"
       url: "https://www.spaceappschallenge.org/"
-      icon: "fas fa-globe"
+      icon: "fas fa-rocket"
+
+
