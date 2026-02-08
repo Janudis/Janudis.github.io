@@ -50,6 +50,7 @@
 
 - title: "Smart Solar Panel System (Arduino)"
   subtitle: "Mini project — Bachelor Electronics course"
+  youtube_id: "A3sQHf99zT4"
   description: >
     Designed and built a small solar tracking prototype that automatically rotates toward the strongest
     light source. Modeled the mechanical structure in SolidWorks and fabricated parts via 3D printing.
