@@ -11,27 +11,57 @@
     - label: "RoboCup@Work"
       url: "https://atwork.robocup.org/"
       icon: "fas fa-globe"
-    - label: "Project github"
+    - label: "Github page"
       url: "https://github.com/AltziTS007/talos_sim/tree/noetic-devel"
       icon: "fab fa-github"
 
-- title: "NASA Space Apps Hackathon — AgroBot"
+- title: "NASA Space Apps Hackathon — AgroBot (1st place in Greece)"
   subtitle: "Earth Observation • Google Earth Engine • Decision Support"
   description: >
-    Chatbot assistant that translates a simple natural-language question into actionable agricultural
-    insights using Earth observation and open geospatial data. Integrates Google Earth Engine datasets
-    (e.g., NDVI, land surface temperature, soil moisture, air quality proxies) and provides an accessible
-    interface for non-technical users to monitor conditions and support field decisions.
+    Built a chatbot assistant that turns a simple natural-language question into actionable agricultural
+    insights using Earth observation and open geospatial data. Integrated Google Earth Engine datasets
+    (e.g., vegetation, land surface temperature, soil moisture, air quality proxies) and presented results
+    through a farmer-friendly interface. Won 1st place in Greece.
   video: "agrobot.mp4"
   links:
     - label: "Demo"
       url: "https://agrobot.streamlit.app/"
       icon: "fas fa-globe"
-    - label: "Code"
+    - label: "Github page"
       url: "https://github.com/Janudis/AgroBot"
       icon: "fab fa-github"
     - label: "Space Apps"
       url: "https://www.spaceappschallenge.org/"
       icon: "fas fa-rocket"
+
+- title: "Thesis — High-Definition Maps for Autonomous Driving"
+  subtitle: "GIS • RoadRunner • OpenDRIVE • NVIDIA DWMap"
+  description: >
+    End-to-end pipeline for building HD maps from real-world geospatial sources and converting them into
+    simulator/stack-friendly formats. Collected orthophotos and digital elevation models (DEMs) from Greek
+    public datasets and processed them in ArcGIS. Authored lane-level HD maps in MathWorks RoadRunner,
+    then built Python tooling to convert OpenDRIVE (.xodr/XML) and GeoJSON outputs into NVIDIA DWMap (XML).
+    Also created a detailed 3D vehicle model in Blender and imported it into RoadRunner for scenario testing.
+  video: "thesis.mp4"
+  links:
+    - label: "Github page"
+      url: "https://github.com/Janudis/opendrive-to-dwmap"
+      icon: "fab fa-github"
+
+- title: "Smart Solar Panel System (Arduino)"
+  subtitle: "Mini project — Bachelor Electronics course"
+  description: >
+    Designed and built a small solar tracking prototype that automatically rotates toward the strongest
+    light source. Modeled the mechanical structure in SolidWorks and fabricated parts via 3D printing.
+    Implemented the control logic in Arduino IDE (C/C++) using light sensor readings to estimate direction
+    and adjust the panel for improved exposure. Includes a full demo and open-source code.
+  links:
+    - label: "Video"
+      url: "https://www.youtube.com/watch?v=A3sQHf99zT4"
+      icon: "fas fa-video"
+    - label: "Github page"
+      url: "https://github.com/Janudis/Smart-solar-panel-with-arduino"
+      icon: "fab fa-github"
+
 
 
