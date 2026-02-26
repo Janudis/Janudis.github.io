@@ -23,9 +23,7 @@ name: Dimitris Ellinoudis
 position: PhD student
 email: ellinoudis.dimitrios@ucy.ac.cy
 description: >-
- I’m currently pursuing a PhD in Robotics at the [Vision for Robotics Lab (V4RL)](https://v4rl.com/), under the supervision of Prof. Dr. Margarita Chli, at the University of Cyprus. 
- My research focuses on dense, photorealistic real-time SLAM for robotics that is robust in dynamic environments and deployable on real robotic platforms. More specifically, I investigate how to represent the data captured during real-time SLAM effectively in order to build the tolerance of such systems to highly dynamic scenes, taking inspiration all the way from classical geometric to learning-based methods.
- As a passionate and self-driven innovation enthusiast, I continuously push to learn new skills and master what I already know.
+ I’m currently pursuing a PhD in Robotics at the [Vision for Robotics Lab (V4RL)](https://v4rl.com/), supervised by Prof. Dr. Margarita Chli. My research lies at the intersection of robotic perception and Computer Vision, with a particular focus on scene representations that remains robust in challenging environments and is deployable on real robotic platforms. In more detail, I study how to represent and optimize the data captured during real-time SLAM effectively, in order to build the tolerance of such systems to highly dynamic scenes, taking inspiration all the way from classical geometric to learning-based methods. As a passionate and self-driven innovation enthusiast, I continuously push to learn new skills and master what I already know.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://janudis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: dimitris-ellinoudis-b15726210
